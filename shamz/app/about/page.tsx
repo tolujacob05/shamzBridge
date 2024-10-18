@@ -30,12 +30,14 @@ const About = () => {
   return (
     <section className="flex flex-col items-center justify-center pt-28 gap-10">
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-3xl font-bold">About Us</h1>
+        <h1 className="text-3xl font-bold font-sans">About Us</h1>
 
         <div className="p-4 flex flex-col items-center md:w-[70%]">
-          <p className="text-center">{isExpanded ? fullText : truncatedText}</p>
+          <p className="text-center text-slate-600 font-sans">
+            {isExpanded ? fullText : truncatedText}
+          </p>
           <button
-            className="mt-2 text-[#1985dd] underline"
+            className="mt-2 text-[#1985dd] underline font-sans"
             onClick={handleToggle}
           >
             {isExpanded ? "Show Less" : "Show More"}
@@ -44,11 +46,11 @@ const About = () => {
       </div>
 
       <div className="flex flex-col items-center justify-center md:w-[70%]">
-        <h1 className="text-center text-3xl font-bold">
+        <h1 className="text-center text-3xl font-bold font-sans">
           Our Vision and Mission
         </h1>
 
-        <p className="p-4 text-center">
+        <p className="p-4 text-center text-slate-600 font-sans">
           Redefining industry standards through consultation, our innovative
           approach integrates cutting-edge technology with expert insights,
           driving transformative change and setting new benchmarks for
@@ -57,8 +59,10 @@ const About = () => {
 
         <div className="p-4 space-y-6">
           <div className="border border-white rounded-[5px] p-4 transition-transform duration-300 transform hover:scale-105 shadow-md">
-            <h5 className="font-semibold text-black text-center">Vision</h5>
-            <p className="text-center">
+            <h5 className="font-semibold text-slate-800 text-center font-sans">
+              Vision
+            </h5>
+            <p className="text-center text-slate-600 font-sans">
               To become a premier organization dedicated to enhancing both
               personal and professional capacities of individuals and
               businesses, fostering efficiency, heightened productivity, and
@@ -67,8 +71,10 @@ const About = () => {
           </div>
 
           <div className="border border-white rounded-[5px] p-4 transition-transform duration-300 transform hover:scale-105 shadow-md">
-            <h5 className="font-semibold text-black text-center">Mission</h5>
-            <p className="text-center">
+            <h5 className="font-semibold text-slate-800 text-center font-sans">
+              Mission
+            </h5>
+            <p className="text-center text-slate-600 font-sans">
               Our mission is to cultivate an empowering atmosphere for skill
               acquisition and capacity enhancement that heralds a holistic
               growth and developent for individuals and organizations
