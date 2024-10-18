@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="flex flex-col gap-10 md:flex-row items-center justify-between py-20 px-20 mt-20">
+    <footer className="flex flex-col gap-10 lg:flex-row items-center justify-between py-20 px-20 mt-20">
       <div>
         <h1 className="text-light text-slate-600">
           © ShamzBridge. All rights reserved.
