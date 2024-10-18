@@ -1,18 +1,18 @@
 const Footer = () => {
   return (
-    <footer className="flex flex-col gap-10 lg:flex-row items-center justify-between py-20 px-20 mt-20">
-      <div>
-        <h1 className="text-light text-slate-600">
+    <footer className="flex flex-col gap-10 lg:flex-row items-center justify-between py-20 lg:px-20 mt-20">
+      <div className="w-full px-4 flex flex-col items-center">
+        <h1 className="text-light text-slate-600 text-center">
           © ShamzBridge. All rights reserved.
         </h1>
 
-        <p className="text-light text-slate-600">
+        <p className="text-light text-slate-600 text-center">
           <span className="text-[#1985dd]">Office address: </span>
           <span>4th Floor, Labour House, Central Business District, Abuja</span>
         </p>
       </div>
 
-      <ul className="flex gap-10 list-none">
+      <ul className="flex gap-6 items-center justify-between lg:gap-10 list-none">
         <li>
           <svg
             xmlns="http://www.w3.org/2000/svg"
