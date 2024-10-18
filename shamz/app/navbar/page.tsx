@@ -17,7 +17,7 @@ import Link from "next/link";
 const Navbar = () => {
   const { scrollY } = useScroll();
   const [hidden, setHidden] = useState(false);
-  const navRef = useRef(null);
+  const navRef = useRef<HTMLDivElement | null>(null);
 
   useMotionValueEvent(scrollY, "change", (latest: number) => {
     const previous = scrollY.getPrevious();
@@ -32,11 +32,12 @@ const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   useEffect(() => {
-    const handleClickOutside = (event: any) => {
-      // @ts-expect-error: This is necessary because the 'content' property is not provided,
-      // but it is required in the 'Card' type. This is a temporary workaround until
-      // the data structure is updated to include 'content'.
-      if (navRef.current && !navRef.current.contains(event.target)) {
+    const handleClickOutside = (event: MouseEvent | TouchEvent) => {
+      // Check if navRef is defined and if the click is outside of it
+      if (
+        navRef.current &&
+        !(event.target instanceof Node && navRef.current.contains(event.target))
+      ) {
         setIsNavOpen(false);
       }
     };
