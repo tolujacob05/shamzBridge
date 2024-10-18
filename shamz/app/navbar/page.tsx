@@ -90,7 +90,7 @@ const Navbar = () => {
         animate={hidden ? "hidden" : "visible"}
         transition={{ duration: 0.5, ease: "easeInOut" }}
         className={cn(
-          "fixed left-1/2 flex items-center justify-between w-11/12 max-w-screen-xl  px-6 py-3 lg:py-2  bg-[#080D1A] bg-opacity-40 shadow-md z-50  backdrop-blur-md rounded-b-3xl",
+          "fixed left-1/2 flex items-center justify-between w-11/12 max-w-screen-xl  px-6 py-3 lg:py-2  bg-white bg-opacity-40 shadow-md z-50  backdrop-blur-md rounded-b-3xl",
           { isNavOpen: "justify-center" } // Center the navigation when it's closed
         )}
       >
@@ -159,11 +159,11 @@ const Navbar = () => {
                   </ul>
 
                   <div className="pt-20">
-                    <p className="text-muted-foregroundOne text-center py-6">
+                    <p className="text-slate-600 text-center py-6">
                       Quick Connect
                     </p>
 
-                    <ul className="flex items-center justify-center border gap-14 px-6 py-4 border-muted-foregroundTwo bg-[#080D1A]/50 rounded-lg w-full">
+                    <ul className="flex items-center justify-center border gap-14 px-6 py-4 border-[#e5eef6] bg-[#c8dded]/50 rounded-lg w-full">
                       <li>
                         <a href="https://www.instagram.com/shamzbridge">
                           <svg

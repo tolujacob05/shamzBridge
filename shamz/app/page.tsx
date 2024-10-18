@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <section className="flex flex-col justify-center pt-28 gap-10">
       <BackgroundLines className="flex items-center w-full flex-col px-4">
-        <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-3xl md:text-4xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
+        <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-slate-800 to-neutral-700 dark:from-neutral-600 dark:to-white text-3xl md:text-4xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
           Build an Organization of High Repute, <br />
           <div className="md:flex">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-900 via-blue-500 to-blue-300">
@@ -29,7 +29,7 @@ export default function Home() {
               <TypingEffect
                 dataPeriod={2000}
                 dataType={defaultTypingItems}
-                className="w-full"
+                className="w-full typewriter md:typewriter-none"
               />
             </span>
           </div>
@@ -40,12 +40,13 @@ export default function Home() {
       </BackgroundLines>
 
       <div className="w-full h-full mt-10">
-        <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
-          Get to know us, <br />{" "}
-          <span className="text-sm self-end pl-4 bg-clip-text text-transparent bg-gradient-to-r from-[#FF6347] via-blue-500 to-blue-900">
-            ... your trusted ally.
-          </span>
+        <h2 className="max-w-7xl pl-8 mx-auto text-3xl md:text-5xl font-bold text-slate-800 dark:text-neutral-200 font-sans">
+          Get to know us,
         </h2>
+        <p className="max-w-7xl text-sm pl-20 md:pl-40 bg-clip-text text-transparent bg-gradient-to-r from-[#FF6347] via-blue-500 to-blue-900 font-sans">
+          ... your trusted ally.
+        </p>
+
         <Carousel items={cards} />
       </div>
     </section>
