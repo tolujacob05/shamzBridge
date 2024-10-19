@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
-    <footer className="py-20 mt-20">
+    <footer className="mt-20 mb-4">
       <h1 className="text-light text-slate-600 text-center font-sans">
         © ShamzBridge. All rights reserved.
       </h1>
-      <div className="flex flex-col gap-10 lg:gap-20 lg:flex-row items-center justify-center pt-10">
+      <div className="flex flex-col gap-6 lg:gap-20 lg:flex-row items-center justify-center pt-8 px-2">
         <p className="text-light text-slate-600 text-center">
           <span className="text-[#1985dd] font-sans">Office address: </span>
           <span>4th Floor, Labour House, Central Business District, Abuja</span>
