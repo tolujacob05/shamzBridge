@@ -31,7 +31,11 @@ const Offer = () => {
             >
               Programs/Projects Mangement
             </CardItem>
-            <CardItem translateZ="100" className="w-full mt-4">
+            <CardItem
+              translateZ="100"
+              className="w-full mt-4"
+              style={{ aspectRatio: "16 / 9" }}
+            >
               <Image
                 src="https://res.cloudinary.com/dno5bo4bx/image/upload/v1729260362/shamz/Screenshot_2024-10-18_145633_yefgx4.png"
                 height="1000"
@@ -73,7 +77,11 @@ const Offer = () => {
             >
               Capacity Building
             </CardItem>
-            <CardItem translateZ="100" className="w-full mt-4">
+            <CardItem
+              translateZ="100"
+              className="w-full mt-4"
+              style={{ aspectRatio: "16 / 9" }}
+            >
               <Image
                 src="https://res.cloudinary.com/dno5bo4bx/image/upload/v1729260349/shamz/Screenshot_2024-10-18_145229_g2tpoq.png"
                 height="1000"
@@ -115,7 +123,11 @@ const Offer = () => {
             >
               Consultancy Services
             </CardItem>
-            <CardItem translateZ="100" className="w-full mt-4">
+            <CardItem
+              translateZ="100"
+              className="w-full mt-4"
+              style={{ aspectRatio: "16 / 9" }}
+            >
               <Image
                 src="https://res.cloudinary.com/dno5bo4bx/image/upload/v1729266401/shamz/Screenshot_2024-10-18_164404_jhh3fx.png"
                 height="1000"
@@ -156,7 +168,11 @@ const Offer = () => {
             >
               Event Host/Management
             </CardItem>
-            <CardItem translateZ="100" className="w-full mt-4">
+            <CardItem
+              translateZ="100"
+              className="w-full mt-4"
+              style={{ aspectRatio: "16 / 9" }}
+            >
               <Image
                 src="https://res.cloudinary.com/dno5bo4bx/image/upload/v1729265971/shamz/Screenshot_2024-10-18_163754_x8no97.png"
                 height="1000"
@@ -197,7 +213,11 @@ const Offer = () => {
             >
               Community development
             </CardItem>
-            <CardItem translateZ="100" className="w-full mt-4">
+            <CardItem
+              translateZ="100"
+              className="w-full mt-4"
+              style={{ aspectRatio: "16 / 9" }}
+            >
               <Image
                 src="https://res.cloudinary.com/dno5bo4bx/image/upload/v1729266089/shamz/Screenshot_2024-10-18_164055_vg648b.png"
                 height="1000"
@@ -239,7 +259,11 @@ const Offer = () => {
             >
               Content development
             </CardItem>
-            <CardItem translateZ="100" className="w-full mt-4">
+            <CardItem
+              translateZ="100"
+              className="w-full mt-4"
+              style={{ aspectRatio: "16 / 9" }}
+            >
               <Image
                 src="https://res.cloudinary.com/dno5bo4bx/image/upload/v1729260362/shamz/Screenshot_2024-10-18_145633_yefgx4.png"
                 height="1000"

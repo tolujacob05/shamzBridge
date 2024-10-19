@@ -29,7 +29,7 @@ export default function Home() {
               <TypingEffect
                 dataPeriod={2000}
                 dataType={defaultTypingItems}
-                className="w-full typewriter md:typewriter-none"
+                className="w-full typewriter"
               />
             </span>
           </div>
@@ -40,7 +40,7 @@ export default function Home() {
       </BackgroundLines>
 
       <div className="w-full h-full mt-10">
-        <h2 className="max-w-7xl pl-8 mx-auto text-3xl md:text-5xl font-bold text-slate-800 dark:text-neutral-200 font-sans">
+        <h2 className="max-w-7xl pl-4 mx-auto text-3xl md:text-5xl font-bold text-slate-800 dark:text-neutral-200 font-sans">
           Get to know us,
         </h2>
         <p className="max-w-7xl text-sm pl-20 md:pl-40 bg-clip-text text-transparent bg-gradient-to-r from-[#FF6347] via-blue-500 to-blue-900 font-sans">
